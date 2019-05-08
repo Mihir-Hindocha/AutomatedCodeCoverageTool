@@ -38,3 +38,5 @@ After adding the plugin to the pom.xml of commons-dbutils,
 **Run mvn test** on the project to calculate the code coverage automatically.
 
 A file named "stmt-cov.txt" will be created in the root directory of the project folder providing a detailed report of the statement coverage. 
+
+**Note: Please run the project in the Statement Coverage folder to see the full functionality of Statement Coverage as the code for visitCode() method still has some errors which leads to failing some test cases in dbutils.**
